@@ -1,5 +1,5 @@
 {
-  "name": "webpack-js-library",
+  "name": "perfanalytics-js",
   "jest": {
     "automock": false,
     "verbose": true,
@@ -9,24 +9,16 @@
     ]
   },
   "version": "1.0.0",
-  "description": "webpack setup for writing a javascript library and making it availabe as script or npm package",
+  "description": "perfanalytics js client library",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --progress --colors --watch",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vyasriday/webpack-js-library.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vyasriday/webpack-js-library/issues"
-  },
-  "homepage": "https://github.com/vyasriday/webpack-js-library#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
