@@ -3,7 +3,9 @@
   "jest": {
     "automock": false,
     "verbose": true,
-    "setupFiles": ["./setupJest.js"],
+    "setupFiles": [
+      "./setupJest.js"
+    ],
     "roots": [
       "test/"
     ]
